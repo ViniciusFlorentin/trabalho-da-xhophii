@@ -1,0 +1,765 @@
+* {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*******************************************************************************************
+Header-Universal
+*******************************************************************************************/
+header {
+    align-items: center;
+    background-color: rgb(251, 86, 48);
+}
+
+header .conteiner-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .conteiner-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .conteiner-header img {
+    width: 50px;
+    height: auto;
+}
+
+header .conteiner-header h1 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+header .conteiner-header a {
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .conteiner-header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(251, 86, 48);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+/*******************************************************************************************
+Fim->Header-Universal<-Fim
+*******************************************************************************************/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Header-Index&Redefinir-Senha
+//////////////////////////////////////////////////////////////////////////////////////////*/
+.header-cabecalho-index-e-redefinicao {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao .logo img {
+    width: 50px;
+    height: auto;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao .logo h1 {
+    color: rgb(251, 86, 48);
+    font-size: 20px;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao .logo h2 {
+    color: rgb(76, 76, 76);
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao .ajuda {
+    color: rgb(251, 86, 48);
+    text-decoration-color: transparent;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-cabecalho-index-e-redefinicao .cabecalho-index-e-redefinicao .ajuda:hover {
+    text-decoration-color: rgb(251, 86, 48);
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Header-Index&Redefinir-Senha<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*******************************************************************************************
+Nav-Universal
+*******************************************************************************************/
+nav {
+    background-color: rgb(251, 119, 48);
+    padding: 5px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(251, 86, 48);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+/*******************************************************************************************
+Fim->Nav-Universal<-Fim
+*******************************************************************************************/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Nav-Visualizar-Produto
+//////////////////////////////////////////////////////////////////////////////////////////*/
+#nav-visualizar-produto {
+    background-color: rgb(215, 215, 215);
+}
+
+#nav-visualizar-produto a {
+    color: rgb(251, 86, 48);
+}
+
+#nav-visualizar-produto a:hover {
+    background-color: rgb(251, 86, 48);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(251, 86, 48);
+    box-shadow: 0px 0px 10px rgb(251, 86, 48);
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Nav-Visualizar-Produto<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*******************************************************************************************
+Main-Universal
+*******************************************************************************************/
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(251, 86, 48);
+}
+
+main .formulario {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 50px 50px 50px;
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+main .formulario h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+    color: rgb(76, 76, 76);
+    font-size: 1.5em;
+}
+
+main .formulario h3 {
+    text-align: center;
+    margin-bottom: 2em;
+    color: rgb(251, 86, 48);
+    font-size: 1.3em;
+}
+
+main .formulario form label {
+    color: rgb(117, 117, 117);
+}
+
+main .formulario form input {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid rgb(221, 221, 221);
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+main .formulario form input[type="text"],
+main .formulario form input[type="password"] {
+    margin-bottom: 4em;
+}
+
+main .formulario form input[type="submit"] {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 86, 48);
+}
+
+main .formulario form .botoes-entrar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 86, 48);
+    border: 1px solid transparent;
+    text-decoration-color: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+main .formulario form a:hover {
+    text-decoration-color: rgb(255, 255, 255);
+    border: 1px solid rgb(251, 86, 48);
+    box-shadow: 0 0 5px rgb(251, 86, 48);
+}
+
+main .formulario form input[type="date"] {
+    cursor: text;
+}
+
+main .formulario form input[type="date"]:hover {
+    box-shadow: 0 0 10px rgb(251, 86, 48);
+}
+
+main .formulario form input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+main .formulario form input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    border: 2px solid rgb(251, 86, 48);
+    box-shadow: 0 0 10px rgb(251, 86, 48);
+}
+
+main .formulario form input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+main input[type="file"] {
+    display: none;
+}
+
+main .formulario form .secao-upload-arquivo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+main .formulario form .secao-upload-arquivo .label-upload-arquivo {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(251, 86, 48);
+    color: rgb(251, 86, 48);
+    display: block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+main .formulario form .secao-upload-arquivo .label-upload-arquivo:hover {
+    background-color: rgb(251, 86, 48);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(251, 86, 48);
+}
+
+main .formulario form input:focus {
+    border-color: rgb(251, 86, 48);
+    outline: none;
+    box-shadow: 0 0 5px rgb(251, 86, 48);
+}
+
+main .formulario .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+main .formulario a {
+    color: rgb(41, 105, 178);
+    text-decoration-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+main .formulario a:hover {
+    text-decoration-color: rgb(41, 105, 178);
+}
+
+main .formulario p #link-cadastrar:hover {
+    text-decoration-color: rgb(251, 86, 48);
+}
+
+main .separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+
+main .separador:before,
+main .separador:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgb(204, 204, 204);
+    margin: 0 5px;
+}
+
+main .login-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .login-social button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 8px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+main .login-social button:hover {
+    border-color: rgb(251, 86, 48);
+    box-shadow: 0 0 5px rgb(251, 86, 48);
+}
+
+main .login-social button img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+main .cadastrar {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1em;
+    color: rgb(128, 128, 128);
+}
+
+main .cadastrar a {
+    color: rgb(251, 86, 48);
+}
+
+main .secao-produtos .grid-container,
+main .secao-lojas .grid-container,
+main .secao-funcionarios .grid-container,
+main .secao-clientes .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main .secao-produtos .grid-container .produto,
+main .secao-lojas .grid-container .loja,
+main .secao-funcionarios .grid-container .funcionario,
+main .secao-clientes .grid-container .cliente {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+main .secao-produtos .grid-container .produto:hover,
+main .secao-lojas .grid-container .loja:hover,
+main .secao-funcionarios .grid-container .funcionario:hover,
+main .secao-clientes .grid-container .cliente:hover {
+    transform: translateY(-5px);
+    text-decoration-color: rgb(251, 119, 48);
+    box-shadow: 0px 4px 8px rgb(251, 119, 48);
+}
+
+main .secao-produtos .grid-container .produto img,
+main .secao-lojas .grid-container .loja img,
+main .secao-funcionarios .grid-container .funcionario img,
+main .secao-clientes .grid-container .cliente img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+main .secao-produtos .grid-container .produto p,
+main .secao-lojas .grid-container .loja p,
+main .secao-funcionarios .grid-container .funcionario p,
+main .secao-clientes .grid-container .cliente p {
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+main .secao-produtos .grid-container .produto .info-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+main .secao-produtos .grid-container .produto .info-produto .preco {
+    color: rgb(251, 119, 48);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main .secao-produtos .grid-container .produto .info-produto .disponivel {
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+}
+
+/*******************************************************************************************
+Fim->Main-Universal<-Fim
+*******************************************************************************************/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Main-Home
+//////////////////////////////////////////////////////////////////////////////////////////*/
+#main-home {
+    background-color: rgb(255, 255, 255);
+}
+
+#main-home #carouselExampleIndicators {
+    margin: 5vh 0;
+}
+
+#main-home .banner {
+    width: 55vw;
+    margin-bottom: 2vh;
+}
+
+#main-home h6 {
+    color: rgb(251, 86, 48);
+}
+
+#main-home #separador-home {
+    display: flex;
+    margin: 15px 0;
+    font-size: 12px;
+    width: 75vw;
+    background: rgb(251, 119, 48);
+    ;
+}
+
+#main-home #separador-home:before,
+#main-home #separador-home:after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: rgb(251, 119, 48);
+    ;
+    margin: 0 5px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Main-Home<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Main-Redefinir-Senha
+//////////////////////////////////////////////////////////////////////////////////////////*/
+#main-redefinir-senha {
+    background-color: rgb(255, 255, 255);
+}
+
+#main-redefinir-senha .formulario {
+    box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    margin: 20vh 0;
+}
+
+#main-redefinir-senha .formulario .voltar {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+
+#main-redefinir-senha .formulario .voltar img {
+    width: 34px;
+    height: auto;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-redefinir-senha .formulario .voltar img:hover {
+    border-color: rgb(251, 86, 48);
+    box-shadow: 0 0 5px rgb(251, 86, 48);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Main-Redefinir-Senha<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Main-Cadastro
+//////////////////////////////////////////////////////////////////////////////////////////*/
+.main-cadastro {
+    background-color: rgb(195, 195, 195);
+}
+
+.main-cadastro .formulario {
+    margin: 2vh 0;
+}
+
+.main-cadastro .formulario h2 {
+    text-align: left;
+    margin-bottom: 1.5em;
+    color: rgb(251, 86, 48);
+    font-size: 1.2em;
+}
+
+.main-cadastro .formulario form input {
+    margin-bottom: 4em;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Main-Cadastro<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Main-Visualizar-Produto
+//////////////////////////////////////////////////////////////////////////////////////////*/
+#main-visualizar-produto {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#main-visualizar-produto .imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-visualizar-produto .imagens img {
+    width: 80px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+#main-visualizar-produto .imagens img:hover {
+    border: 2px solid rgb(251, 86, 48);
+    box-shadow: 0px 0px 10px rgb(251, 86, 48);
+}
+
+#main-visualizar-produto .produto-principal img {
+    width: 400px;
+    height: 400px;
+}
+
+#main-visualizar-produto .informacoes {
+    padding-left: 20px;
+}
+
+#main-visualizar-produto .informacoes p,
+main .informacoes h2 {
+    margin: 5px;
+}
+
+#main-visualizar-produto .informacoes #precoProduto {
+    color: rgb(251, 86, 48);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#main-visualizar-produto .informacoes .botao {
+    margin: 10px;
+    padding: 10px 10px;
+    border: 1px solid rgb(215, 215, 215);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-visualizar-produto .informacoes .botao:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(251, 86, 48);
+    background-color: rgb(251, 86, 48);
+    box-shadow: 0px 0px 10px rgb(251, 86, 48);
+}
+
+#main-visualizar-produto .informacoes #botaoComprar {
+    background-color: rgb(251, 86, 48);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Main-Visualizar-Produto<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Main-Telas-de-Visualizar
+//////////////////////////////////////////////////////////////////////////////////////////*/
+.main-telas-de-visualizar {
+    background-color: rgb(117, 117, 117);
+    padding: 0;
+}
+
+.main-telas-de-visualizar .secao-produtos, 
+.main-telas-de-visualizar .secao-lojas,
+.main-telas-de-visualizar .secao-funcionarios,
+.main-telas-de-visualizar .secao-clientes {
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.main-telas-de-visualizar .secao-produtos h6,
+.main-telas-de-visualizar .secao-lojas h6,
+.main-telas-de-visualizar .secao-funcionarios h6,
+.main-telas-de-visualizar .secao-clientes h6 {
+    color: rgb(251, 119, 48);
+    text-align: center;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+Fim->Main-Telas-de-Visualizar<-Fim
+//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*******************************************************************************************
+Footer-Universal
+*******************************************************************************************/
+footer {
+    background: rgb(245, 245, 245);
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+footer .secoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+footer .secoes .secao-rodape {
+    flex: 1;
+    padding: 40px 0;
+    min-width: 200px;
+    text-align: left;
+}
+
+footer .secoes .secao-rodape h4 {
+    font-size: 14px;
+    margin-bottom: 27px;
+    color: rgb(42, 42, 42);
+}
+
+footer .secoes .secao-rodape ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .secoes .secao-rodape ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+footer .secoes .secao-rodape ul li a {
+    text-decoration-color: transparent;
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+footer .secoes .secao-rodape ul li a:hover {
+    text-decoration-color: rgb(251, 86, 48);
+}
+
+footer .secoes .secao-rodape .icones-pagamento img {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    margin: 5px;
+}
+
+footer .secoes .secao-rodape .links-sociais li a img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+footer .secoes .secao-rodape .icones-lojas li a img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    margin: 10px 0;
+    width: 70px;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .secoes .secao-rodape .icones-lojas li a img:hover {
+    border: 2px solid rgb(251, 86, 48);
+    box-shadow: 0px 0px 10px rgb(251, 86, 48);
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+    margin-top: 20px;
+}
+
+/*******************************************************************************************
+Fim->Footer-Universal<-Fim
+*******************************************************************************************/
